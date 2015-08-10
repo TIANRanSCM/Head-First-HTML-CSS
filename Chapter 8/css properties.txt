@@ -1,0 +1,32 @@
+Customize the fonts in your pages with the font-family property.
+
+body {
+font-family: Verdana, Geneva, Arial, sans-serif; use verdana unless not available then move down the list
+}
+
+There are five font families: sans-serif, serif, monospace, cursive, and fantasy
+
+Control the size of your fonts with the font-size property
+
+body {
+font-size: 14px;
+}
+
+Add color to your text with the color property.
+
+body {
+color: silver;
+}
+
+Affect the weight of your fonts with the font-weight property.
+
+body {
+font-weight: bold;
+}
+
+Add even more style to your text with the text-decoration property.
+
+body {
+text-decoration: underline;
+}
+
