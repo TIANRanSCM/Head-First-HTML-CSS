@@ -10,6 +10,16 @@ header {
 	height: 108px;
 }
 
+header.top {
+	background-color: #675c47;
+	margin: 10px 10px 0px 10px;
+	height: 108px;
+}
+
+/*header.top img#headerLogo {
+	float: left;
+}*/
+
 section#drinks {
 	display: table-cell;;
 	background-color: #efe5d0;
@@ -18,7 +28,7 @@ section#drinks {
 	vertical-align: top;
 }
 
-section#main {
+section#main, section#blog {
 	display: table-cell;
 	background: #efe5d0 url(images/background.gif) top left;
 	font-size: 105%;
