@@ -28,4 +28,13 @@ table {
   margin-right: 20px;
   border: thin solid black;
   caption-side: bottom;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #cc6600;
+}
+
+.cellcolor {
+  background-color: #fcba7a;
 }
