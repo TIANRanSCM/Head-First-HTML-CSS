@@ -25,6 +25,20 @@
     		<input type="radio" name="beantype" value="ground" checked>Ground
     	</p>
 
+    	<p>
+    		Number of bags: <input type="number" name="bags" min="1" max="10"> <br>
+    	</p>
+
+    	<p>
+    		Must arrive by date: <input type="date" name="date">
+    	</p>
+
+    	<p>
+    		Extras: <br>
+    		<input type="checkbox" name="extras[]" value="giftwrap">Gift wrap <br>
+    		<input type="checkbox" name="extras[]" value="catalog" checked>Include catalog with order
+    	</p>
+
     	<p>Ship to: <br>
     		Name: <input type="text" name="name"><br>
     		Address: <input type="text" name="address"> <br>
@@ -33,6 +47,10 @@
 			Zip: <input type="text" name="zip"> <br>
 			Phone: <input type="tel" name="phone"> <br>
 		</p>
+
+		<p>Customer Comments: <br>
+			<textarea name="comments"></textarea>
+
 		<p>
 			<input type="submit" value="Order Now">
 		</p>
